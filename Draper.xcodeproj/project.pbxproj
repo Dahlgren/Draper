@@ -14,6 +14,8 @@
 		401DB29C1EF5438E007828E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401DB29A1EF5438E007828E2 /* LaunchScreen.storyboard */; };
 		401DB2A71EF5438F007828E2 /* DraperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401DB2A61EF5438F007828E2 /* DraperTests.swift */; };
 		401DB2B21EF5438F007828E2 /* DraperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401DB2B11EF5438F007828E2 /* DraperUITests.swift */; };
+		401DB2C41EF54865007828E2 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401DB2C31EF54865007828E2 /* Artwork.swift */; };
+		401DB2C61EF54D00007828E2 /* MuzeiFeaturedArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401DB2C51EF54D00007828E2 /* MuzeiFeaturedArt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		401DB2AD1EF5438F007828E2 /* DraperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		401DB2B11EF5438F007828E2 /* DraperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraperUITests.swift; sourceTree = "<group>"; };
 		401DB2B31EF5438F007828E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401DB2C31EF54865007828E2 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		401DB2C51EF54D00007828E2 /* MuzeiFeaturedArt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuzeiFeaturedArt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				401DB2911EF5438E007828E2 /* AppDelegate.swift */,
+				401DB2C31EF54865007828E2 /* Artwork.swift */,
+				401DB2C51EF54D00007828E2 /* MuzeiFeaturedArt.swift */,
 				401DB2931EF5438E007828E2 /* ViewController.swift */,
 				401DB2951EF5438E007828E2 /* Main.storyboard */,
 				401DB2981EF5438E007828E2 /* Assets.xcassets */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				401DB2941EF5438E007828E2 /* ViewController.swift in Sources */,
+				401DB2C41EF54865007828E2 /* Artwork.swift in Sources */,
+				401DB2C61EF54D00007828E2 /* MuzeiFeaturedArt.swift in Sources */,
 				401DB2921EF5438E007828E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +513,7 @@
 				401DB2B81EF5438F007828E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		401DB2B91EF5438F007828E2 /* Build configuration list for PBXNativeTarget "DraperTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				401DB2BB1EF5438F007828E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		401DB2BC1EF5438F007828E2 /* Build configuration list for PBXNativeTarget "DraperUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				401DB2BE1EF5438F007828E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
